@@ -1,0 +1,36 @@
+/* About background */
+.about-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100dvh;
+	pointer-events: none;
+	transition: opacity .5s;
+	mix-blend-mode: screen;
+	will-change: opacity;
+}
+.about-background-gradient {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	will-change: opacity;
+	background: radial-gradient(rgba(198, 230, 145, 0.5) 0%, black 100%);
+	animation: about-background-gradient 1s .5s forwards;
+}
+@keyframes about-background-gradient {
+	from {
+		opacity: 0;
+		transform: translateZ(0);
+	}
+	to {
+		opacity: 1;
+		transform: translateZ(0);
+	}
+}
+body[data-transition="1"] .about-background {
+	opacity: 0;
+}
