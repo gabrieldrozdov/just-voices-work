@@ -64,14 +64,14 @@ const workData = {
 		"url": "https://www.youtube.com/watch?v=tJnyNT3BSJo",
 		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/tJnyNT3BSJo?si=UF_e7nQWZDvcPsL7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
 	},
-	"baskin-robbins-cappuccino-blast": {
-		"url": "https://www.facebook.com/watch/?v=1033405330743856",
-		"embed": `<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FbaskinrobbinsUS%2Fvideos%2F1033405330743856%2F&show_text=false&width=380&t=0" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>`
-	},
-	"baskin-robbins-iced-tea-freeze": {
-		"url": "https://www.facebook.com/watch/?v=357460599230173",
-		"embed": `<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FbaskinrobbinsUS%2Fvideos%2F357460599230173%2F&show_text=false&width=380&t=0" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>`
-	},
+	// "baskin-robbins-cappuccino-blast": {
+	// 	"url": "https://www.facebook.com/watch/?v=1033405330743856",
+	// 	"embed": `<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FbaskinrobbinsUS%2Fvideos%2F1033405330743856%2F&show_text=false&width=380&t=0" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>`
+	// },
+	// "baskin-robbins-iced-tea-freeze": {
+	// 	"url": "https://www.facebook.com/watch/?v=357460599230173",
+	// 	"embed": `<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FbaskinrobbinsUS%2Fvideos%2F357460599230173%2F&show_text=false&width=380&t=0" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>`
+	// },
 	"bounty-quicker-picker-upper-pirate": {
 		"url": "https://www.ispot.tv/ad/du9u/bounty-pirate",
 		"embed": `<div style="position:relative; width:100%; padding-top:56.25%; padding-bottom:40px;"><iframe src="https://www.ispot.tv/share/du9u" style="position:absolute; top:0; right:0; left:0; bottom:0; width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen=""></iframe></div>`
@@ -112,6 +112,70 @@ const workData = {
 		"url": "https://www.ispot.tv/ad/o2jE/carls-jr-guacamole-double-cheeseburger-typo",
 		"embed": `<div style="position:relative; width:100%; padding-top:56.25%; padding-bottom:40px;"><iframe src="https://www.ispot.tv/share/o2jE" style="position:absolute; top:0; right:0; left:0; bottom:0; width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen=""></iframe></div>
 		`
+	},
+	"tv-publix-supermarket-the-flame": {
+		"url": "https://www.youtube.com/watch?v=HrkSCyfvOMg",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/HrkSCyfvOMg?si=OtdKiWANirLh48VF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"ore-ida-sunrisa": {
+		"url": "https://www.youtube.com/watch?v=CQAoc0HntTM",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/CQAoc0HntTM?si=8fwluufB0HyLrZeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"cvs-pharmacy-long-receipt-short-story": {
+		"url": "https://www.youtube.com/watch?v=ndkuK1ooUj0",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/ndkuK1ooUj0?si=lPNz28MTaoGcmX5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"jw-marriot-jw-treatment": {
+		"url": "https://www.youtube.com/watch?v=3Ot1MwiP9B8",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/3Ot1MwiP9B8?si=QYaGox2X9gxzS3EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"blue-apron": {
+		"url": "https://www.ispot.tv/ad/AQYd/blue-apron-a-better-food-system",
+		"embed": `<div style="position:relative; width:100%; padding-top:56.25%; padding-bottom:40px;"><iframe src="https://www.ispot.tv/share/AQYd" style="position:absolute; top:0; right:0; left:0; bottom:0; width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen=""></iframe></div>`
+	},
+	"disneys-little-einsteins": {
+		"url": "https://www.youtube.com/watch?v=XPMzSYzKImM",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/XPMzSYzKImM?si=84cLmGx-TeN-64_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"progressive-radio-2024-dream-come-true-colonial": {
+		"url": "https://www.youtube.com/watch?v=sN5RKniJxfI",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/sN5RKniJxfI?si=dZUIH2eMvyRy-yXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"progressive-radio-2024-dream-come-true-walk-up": {
+		"url": "https://www.youtube.com/watch?v=ejZROy-gc7E",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/ejZROy-gc7E?si=IINB3glS2V6yjV6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"progressive-radio-2024-what-do-they-have-in-common-fireworks": {
+		"url": "https://www.youtube.com/watch?v=Dt4YQk7dr0Q",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/Dt4YQk7dr0Q?si=TUZs9RtVZZEg6Y3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	// "progressive-radio-mercury-award-winner-2022-great-protection-bad-timing": {
+	// 	"url": "https://www.radiomercuryawards.com/audio2022/13269.mp3",
+	// 	"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/XPMzSYzKImM?si=84cLmGx-TeN-64_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	// },
+	"xfinity-radio": {
+		"url": "https://www.youtube.com/watch?v=JGJIGj9MIrg",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/JGJIGj9MIrg?si=GsHPSwfM34ROgra5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"documentary-what-she-said-the-art-of-pauline-kael": {
+		"url": "https://www.youtube.com/watch?v=mZnZYGQbCmo",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/mZnZYGQbCmo?si=yccIvpOkz2HMfYuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"documentary-out-of-ireland-paul-wagner-films": {
+		"url": "https://www.youtube.com/watch?v=pbujqRpZoec",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/pbujqRpZoec?si=0p-nja9HsA5YfTB7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	// "harry-grows-up-a-short-film-by-mark-nickelsburg": {
+	// 	"url": "https://vimeopro.com/marknickelsburg/harry/video/47026125",
+	// 	"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/XPMzSYzKImM?si=84cLmGx-TeN-64_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	// },
+	"world-of-warcraft-cataclysm": {
+		"url": "https://www.youtube.com/watch?v=MKoEwxd9YqA",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/MKoEwxd9YqA?si=Age9qiGNNUn8Ea4N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+	},
+	"far-cry-4": {
+		"url": "https://www.youtube.com/watch?v=7F4xH2hqbeM",
+		"embed": `<iframe width="560" height="315" src="https://www.youtube.com/embed/7F4xH2hqbeM?si=O6izcugyuJwLkewv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
 	}
 }
 
